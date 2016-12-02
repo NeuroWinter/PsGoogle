@@ -1,3 +1,30 @@
+#      .SYNOPSIS
+#          A brief description of the function or script. This keyword can be used
+#          only once in each topic.
+
+#      .DESCRIPTION
+#          A detailed description of the function or script. This keyword can be
+#          used only once in each topic.
+
+#      .PARAMETER q <string>
+#          q is the query you are submiting to google, this is your search term.
+
+#      .PARAMETER n <int>
+#           N defines the amount of results to display.
+
+#      .PARAMETER o <switch>
+#           This is a switch that will return the results as an object.
+
+#      .EXAMPLE
+#          google what is the airspeed velocity of an unladen swallow
+
+#      .EXAMPLE
+#          google what is the airspeed velocity of an unladen swallow -n 20
+
+#      .EXAMPLE
+#          $first20Results = google what is the airspeed velocity of an unladen swallow -n 20 -o
+
+
 Add-Type -AssemblyName System.Web
 Add-Type -AssemblyName System.Management.Automation
 
